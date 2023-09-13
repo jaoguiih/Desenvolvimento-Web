@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos do CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Seletor é o nome ou id de uma <tag> */
+        h4{
+            color:blue;
+            background-color: yellow;
+            border: 5px solid white;
+        /*Nivel de especificação*/
+        }    
+        section p#pzao{
+            text-align: center;
+            font-size: 1.5rem;
+            border: 2px solid black;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body style="background-color:gray">
+    <h1>CSS - Browser - Herança 5</h1>
+    <h2>CSS - User-Style - Herança 4</h2>
+    <h3>CSS - External - Herança 3</h3>
+    <h4>CSS - Embedded - Herança 2</h4>
+    <h5 style="color: purple; font-size: 1.5rem;">CSS - Inline - Herança 1</h5>
+
+    <p style="text-align: right; color: aqua;">Esse estilo está possuido pelo estilo inline</p>
+    <p>Esse paragrafo não</p>
+
+    <section>
+        <p id="pzao">
+            Every day, I imagine a future where I can be with you In my hand is a pen that will write 
+            a poem of me and you The ink flows down into a dark puddle Just move your hand, write the way
+             into his heart But in this world of infinite choices What will it take just to find that special 
+             day? What will it take just to find that special day?
+        </p>
+        <p>
+            esse não bruxão
+        </p>
+    </section>
+    <ul>
+        <li>Browser</li> <br>
+        <li style="font-size: 25px; color: yellow;">Inline</li>
+        <li><a href="#">Chama</a></li>
+    </ul>
+    <a href="#">Embedded</a> <br>
+    <a href="#">Mais um a perdido</a>
+    <p id="escolhido">Esse paragrafo é o escolhido</p>
+    <p>Esse não</p>
+    <hr>
+    <footer>
+        by jaoguiih &copy;
+    </footer>
+</body>
+</html>
